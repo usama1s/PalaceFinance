@@ -1,0 +1,564 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>NFT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="head">
+        <img src="./assets/images/logo.png" alt="logo" />
+        <div onclick="hambugerHandler()" class="overlay hide" id="overlay"></div>
+
+        <ul id="nav-items">
+          <li><a href="#">About</a></li>
+          <li><a href="#">RoadMap</a></li>
+          <li><a href="#">Lottery</a></li>
+          <li><a href="#">Statistic</a></li>
+          <li><a href="#">Dashboard</a></li>
+        </ul>
+        <button class="b-btn" id="nav-btn">
+          <img src="./assets/images/btnimage.png" alt="" />
+          <p>Wallet Connect</p>
+        </button>
+        <i class="fa fa-bars hamburger" onclick="hambugerHandler()" id="hamburger"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="container banner-sec">
+    <div class="">
+      <div class="p-logo">
+        <img src="assets/images/video.gif" alt="">
+      </div>
+      <div class="banner-bg">
+        <div class="">
+          <h2 class="title-text">What is Palace Finance?</h2>
+          <p class="p-text">
+            The Palace Finance serves as the backbone of a rapidly growing
+            ecosystem aimed towards bringing liquidity and new use cases to
+            the Arbitrum network. The protocol's underlying mechanism
+            dynamically adjusts $PUSD's supply, pushing its price up or down
+            relative to the price of $ETH.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="mw-990">
+      <div class="youtube-sec">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RDDEMB4doXg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <hr class="blue-hr" />
+
+  <section class="container why-choose-bg pb-0">
+    <div class="why-choose-sec">
+      <div class="img-side">
+        <img src="assets/images/why-choose-us.png" alt="" />
+      </div>
+      <div class="">
+        <h2 class="title-text text-center-md">Why choose us?</h2>
+        <p class="p-text text-center-md">
+          Unlike previous algorithmic tokens, $PUSD is not pegged to a stable
+          coin it is instead pegged to $ETH.
+        </p>
+      </div>
+    </div>
+    <div class="why-choose-info-sec">
+      <h2 class="title-text text-center">Why is this?</h2>
+      <p class="p-text text-center">
+        Palace Finance believes in the potential of Ether, and has chosen to
+        align its mission to both provide value to and derive value from
+        $ETH's future growth. $PUSD aims to become the main medium of exchange
+        on Arbitrum: this will be achieved by providing a mirrored, liquid
+        asset to $ETH. One of the primary shortcomings of past algorithmic
+        tokens has been a lack of use cases, leaving no good reason for
+        somebody to want to use or hold them. In order to successfully
+        maintain the peg in the long-run, the Palace team will maintain a
+        focus on innovation around enhanced functionality and use cases.
+      </p>
+      <button class="b-btn p-text">Connect Wallet</button>
+    </div>
+  </section>
+
+  <hr class="blue-hr" />
+
+  <section class="container">
+    <div class="tokenomics-sec">
+      <div class="img-side">
+        <img src="assets/images/tokenomics.png" alt="" />
+      </div>
+      <div class="info-side">
+        <h2 class="title-text">Tokenomics</h2>
+        <ul class="plus-ul">
+          <li class="p-text">
+            Initial Supply : 200 <b> (100% will go for linitial liquidity)</b>
+          </li>
+          <li class="p-text">Sell fee - 6%</li>
+          <li class="p-text">liquidity adjustment</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="tokenomics-bg container">
+    <div class="">
+      <p class="p-text left-line">
+        The 6% sell fee helps prevent a price dump of $PUSD. A liquidity
+        adjustment is used to increase the price when it moves below the peg
+        price. When the price goes down to the peg price, the core team
+        activates a liquidity adjustment and the token price increases by 5%
+        each day.
+      </p>
+    </div>
+  </section>
+
+  <hr class="blue-hr" />
+
+  <section class="container">
+    <div class="tokenomics-sec lucky-sec lucky2-sec">
+      <div class="info-side">
+        <h2 class="title-text">What is Lucky Key?</h2>
+        <p class="p-text left-line">
+          The Lucky Key (LKEY) is an NFT token (ERC721) and performs similar
+          operations to the old tomb protocol's share tokens, but the LKEY can
+          be used for many other purposes as well which makes it so great than
+          other tomb protocol share tokens.
+        </p>
+      </div>
+      <div class="img-side">
+        <img src="assets/images/lucky.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-0 pb-0">
+    <div class="container">
+      <div class="stake-cards">
+        <div class="card cliped-borders">
+          <div class="top"><span></span></div>
+          <div class="bottom"><span></span></div>
+          <h3>Stake to Genesis Pools</h3>
+          <p>
+            Users can stake their LKEYs into the USDC or USDT genesis pools
+            and get a 15% bonus of the NFT price, from the total staked
+            amount(A balance increase of 20% of Total NFT price staked).
+            Staked LKEYs will be locked for 15 days.
+          </p>
+        </div>
+        <div class="card cliped-borders">
+          <div class="top"><span></span></div>
+          <div class="bottom"><span></span></div>
+          <h3>Stake to Boardroom</h3>
+          <p>
+            Users can stake LKEY to the boardroom and be rewarded with PUSD.
+          </p>
+        </div>
+        <div class="card cliped-borders">
+          <div class="top"><span></span></div>
+          <div class="bottom"><span></span></div>
+          <h3>Exchange with Palace NFT</h3>
+          <p>
+            Users can later exchange LKEYs with Palace NFTs at a 1:1 exchange
+            rate. Palace NFTs are placed in the NFT Marketplace and used as
+            NFT characters in the Palace gamefi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="palace-sec">
+      <div class="img-side">
+        <img src="assets/images/palace.png" alt="" />
+      </div>
+      <div class="info-side">
+        <h2 class="title-text">Palace NFT</h2>
+        <p class="p-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam,
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="palace-sec nft-sec">
+      <div class="info-side">
+        <h2 class="title-text">NFT GAME</h2>
+        <p class="p-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam,Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam,
+        </p>
+      </div>
+      <div class="img-side">
+        <img src="assets/images/nft.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <div>
+      <div class="roadmap-sec container">
+        <h2 class="title-text text-center">RoadMap</h2>
+        <p class="p-text text-center">
+          We have huge plans for Palace Finance in the future and intend to
+          grow into something a lot more than just another fork or algo
+          protocol. Our goal is to make PUSD a community led cross chain coin
+          with a substantial ecosystem of infrastructure behind it to
+          effectively create valuable and lasting utility for Palace
+          Eco-system. Below are some of our plans for this year in
+        </p>
+      </div>
+      <div class="verticle-sec">
+        <div class="verticle-sec-bg">
+          <img src="assets/images/verticle-bg.png" alt="" />
+          <img src="assets/images/verticle-bg.png" alt="" />
+        </div>
+        <div class="container pt-0 pb-0">
+          <div>
+            <div class="verticle-timeline">
+              <div>
+                <div class="main-logo">
+                  <img src="assets/images/logo.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/bulb.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/images/arrow.png" alt="" />
+                </div>
+                <div class="item">
+                  <img src="assets/images/nft-sm.png" alt="" />
+                </div>
+
+                <div class="item">
+                  <img src="assets/images/handshake.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="verticle-cards">
+              <div class="verticlecard-hide"></div>
+              <div class="cliped-borders invert">
+                <div class="top"><span></span></div>
+                <div class="bottom"><span></span></div>
+                <ul class="gift-ul">
+                  <li class="p-text">White Paper</li>
+                  <li class="p-text">Landing Page</li>
+                  <li class="p-text">Social Creation</li>
+                  <li class="p-text">KYC</li>
+                  <li class="p-text">
+                    Decentralized Application Development
+                  </li>
+                  <li class="p-text">Audit</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="verticle-cards">
+              <div class="cliped-borders invert">
+                <div class="top"><span></span></div>
+                <div class="bottom"><span></span></div>
+                <ul class="gift-ul">
+                  <li class="p-text">Genesis Launch+ NFT Card Mint</li>
+                  <li class="p-text">Boardroom Launch</li>
+                  <li class="p-text">Voting System</li>
+                </ul>
+              </div>
+              <div class="verticlecard-hide"></div>
+            </div>
+
+            <div class="verticle-cards">
+              <div class="verticlecard-hide"></div>
+
+              <div class="cliped-borders invert">
+                <div class="top"><span></span></div>
+                <div class="bottom"><span></span></div>
+                <ul class="gift-ul">
+                  <li class="p-text">Lottery</li>
+                  <li class="p-text">Launch NFT</li>
+                  <li class="p-text">NFT Mint+ NFT Card Exchange</li>
+                  <li class="p-text">NFT Marketplace</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="verticle-cards">
+              <div class="cliped-borders invert">
+                <div class="top"><span></span></div>
+                <div class="bottom"><span></span></div>
+                <ul class="gift-ul">
+                  <li class="p-text">Partnership With Game Company</li>
+                  <li class="p-text">NFT Game</li>
+                  <li class="p-text">MyCatssino- Game And Sport Betting</li>
+                </ul>
+              </div>
+              <div class="verticlecard-hide"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <img class="faq-image" src="./assets/images/FAQimage.png" alt="faq_images" />
+    <div class="faq-sec">
+      <h2 class="title-text text-center">Frequently Asked Questions</h2>
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            What is the Palace Lottery & where is it played?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            When will the first PALACE lottery draws be held?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">How can I buy a PALACE NFT Lottery Ticket?</h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">How many PALACE tickets can I buy?</h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            When will the first PALACE lottery draws be held?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">How do I claim my PALACE prize?</h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            How can I find out if I’ve won the PALACE lottery?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            Are there any limits or restrictions on buying a PALACE ticket and
+            collecting the prize based on where I live?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            How much time do I have to claim my PALACE reward?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-accordion">
+        <button class="accordion">
+          <h3 class="p-text">
+            How many phases does the PALACE lottery have?
+          </h3>
+          <img id="plus" src="./assets/images/plus.png" />
+          <img id="minus" src="./assets/images/minus.png" />
+        </button>
+        <div class="panel">
+          <p>
+            We are not the typical lottery you can come across online. Our
+            team has beliefs and values we amend to rigorously, providing you
+            with the best chance of actually hitting the lottery while having
+            fun. Our jackpots vary depending on the lottery you play. For our
+            first lottery, the grand award will be an NFT from the Bored Ape
+            collection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <img src="./assets/images/footerimage.png" alt="footerimage" />
+      <div class="footer-bar">
+        <p class="p-text"><a href="#">Nft Auction</a></p>
+        <p class="p-text">
+          <a href="#">Get $chip</a>
+        </p>
+        <p class="p-text"><a href="#"> Stake </a></p>
+        <p class="p-text">
+          <a href="#">Docs</a>
+        </p>
+        <p class="p-text">
+          <a href="#">Vote</a>
+        </p>
+      </div>
+      <div class="social-icons">
+        <a href="#">
+          <img class="m-40" src="./assets/images/telegram.png" alt="telegram" /></a>
+        <a href="#">
+          <img class="m-40" src="./assets/images/twitter.png" alt="twitter" />
+        </a>
+        <a href="#">
+          <img src="./assets/images/discord.png" alt="discord" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
